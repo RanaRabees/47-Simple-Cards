@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<title>Simple-Cards</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-teal.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"><style>
+*{
+    margin: 0;
+    padding: 0;
+    font-style: italic;
+    font-family: algrian;
+    font-size: 20px;
+}
+body {
+    font-family: "Roboto", sans-serif
+}
+.w3-bar-block .w3-bar-item {
+    padding: 16px;
+    font-weight: bold;
+}
+/* body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+.foo{
+    text-align: center;
+}
+#ranahead{
+    font-size: 30px;
+}
+.myIntro{
+    text-align: center;
+}
+#sidelogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+</style>
+<body>
+
+<nav class="w3-sidebar w3-bar-block w3-collapse w3-animate-left w3-card" style="z-index:3;width:250px;" id="mySidebar">
+  <a class="w3-bar-item w3-button w3-border-bottom w3-large" href="#"><img id="sidelogo" src="https://www.bluecorona.com/wp-content/uploads/2015/04/what-is-a-responsive-website.png" style="width:80%;"></a>
+  <a class="w3-bar-item w3-button w3-hide-large w3-large" href="javascript:void(0)" onclick="w3_close()">Close <i class="fa fa-remove"></i></a>
+  
+  <a class="w3-bar-item w3-button w3-teal" href="#">Home</a>
+  <a class="w3-bar-item w3-button" href="#"><center>Link 1</center></a>
+  <a class="w3-bar-item w3-button" href="#"><center>Link 2</center></a>
+  <a class="w3-bar-item w3-button" href="#"><center>Link 3</center></a>
+  <a class="w3-bar-item w3-button" href="#"><center>Link 4</center></a>
+  <a class="w3-bar-item w3-button" href="#"><center>Link 5</center></a>
+  <div>
+    <a class="w3-bar-item w3-button" onclick="myAccordion('demo')" href="javascript:void(0)">Dropdown <i class="fa fa-caret-down"></i></a>
+    <div id="demo" class="w3-hide">
+      <a class="w3-bar-item w3-button" href="#"><center>Link</center></a>
+      <a class="w3-bar-item w3-button" href="#"><center>Link</center></a>
+      <a class="w3-bar-item w3-button" href="#"><center>Link</center></a>
+    </div>
+  </div>
+
+</nav>
+<html>
+<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" id="myOverlay"></div>
+
+<div class="w3-main" style="margin-left:250px;">
+
+<div id="myTop" class="w3-container w3-top w3-theme w3-large">
+  <p><i class="fa fa-bars w3-button w3-teal w3-hide-large w3-xlarge" onclick="w3_open()"></i>
+    <center><span id="myIntro" class="w3-hide"> Rana:G Introduction </span></center></p>
+</div>
+
+<header class="w3-container w3-theme">
+  <h1 id="ranahead"><center> Rana Rabees </center></h1>
+</header>
+
+<div class="w3-container" style="padding:32px">
+<center>
+<h2>What is Django?</h2>
+
+<p>Django is a modern CSS framework with built-in responsiveness:</p>
+
+<ul class="w3-leftbar w3-theme-border" style="list-style:none">
+ <li>Smaller and faster than other CSS frameworks.</li>
+ <li>Easier to learn, and easier to use than other CSS frameworks.</li>
+ <li>Uses standard CSS only (No jQuery or JavaScript library).</li>
+ <li>Speeds up mobile HTML apps.</li>
+ <li>Provides CSS equality for all devices. PC, laptop, tablet, and mobile:</li>
+</ul>
+</center>
+<br>
+<img src="https://img.freepik.com/premium-photo/devices-mock-up-responsive-website-3d-rendering_72104-3721.jpg?w=2000" style="width:100%" alt="Responsive">
+
+<hr>
+<center><h2>Django is Free</h2>
+<p>Django is free to use. No license is necessary.</p></center>
+
+<hr>
+<center><h2>Easy to Use</h2>
+<div class="w3-container w3-sand w3-leftbar">
+<p><i>Make it as simple as possible, but not simpler.</i><br>
+Albert Einstein</p></center>
+</div>
+
+<hr>
+<center><h2> Rana:G Web Site Templates </h2>
+
+<p>We have created some responsive W3CSS templates for you to use.</p>
+<p>You are free to modify, save, share, use or do whatever you want with them: </p></center>
+
+
+<div class="w3-panel w3-light-grey w3-padding-16 w3-card">
+<h3 class="w3-center">Band Template</h3>
+<div class="w3-content" style="max-width:800px">
+<a href="tryw3css_templates_band.htm" target="_blank"  title="Band Demo"><img src="https://thumbs.dreamstime.com/z/responsive-agency-web-page-design-interface-presentation-display-device-laptop-computer-workplace-tablet-smart-phone-182662231.jpg" style="width:98%;margin:20px 0" alt="Band Template"></a><br>
+<div class="w3-row">
+  <div class="w3-col m6">
+    <a href="tryw3css_templates_band.htm" target="_blank" class="w3-button w3-padding-large w3-dark-grey" style="width:98.5%">Demo</a>
+  </div>
+  <div class="w3-col m6">
+    <a href="w3css_templates.asp" class="w3-button w3-padding-large w3-dark-grey" style="width:98.5%">More Templates »</a>
+  </div>
+</div>
+</div>
+</div>
+
+<div class="w3-container w3-padding-16 w3-card" style="background-color:#eee">
+<h3 class="w3-center">Blog Template</h3>
+<div class="w3-content" style="max-width:800px">
+<img src="https://img.freepik.com/free-vector/gradient-responsive-website-design_52683-89071.jpg?w=2000" style="width:98%;margin:20px 0" alt="Blog Template"><br>
+<div class="w3-row">
+  <div class="w3-col m6">
+    <a href="tryw3css_templates_blog.htm" target="_blank" class="w3-button w3-padding-large w3-dark-grey" style="width:98.5%">Demo</a>
+  </div>
+  <div class="w3-col m6">
+    <a href="w3css_templates.asp" class="w3-button w3-padding-large w3-dark-grey" style="width:98.5%">More Templates »</a>
+  </div>
+</div>
+</div>
+</div>
+
+</div>
+
+<footer class="w3-container w3-theme">
+  <p class="foo"> Rana Muhammad Rabees Hussain</p>
+</footer>
+     
+</div>
+
+<script>
+// Open and close the sidebar on medium and small screens
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+  document.getElementById("myOverlay").style.display = "block";
+}
+
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+  document.getElementById("myOverlay").style.display = "none";
+}
+
+// Change style of top container on scroll
+window.onscroll = function() {myFunction()};
+function myFunction() {
+  if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+    document.getElementById("myTop").classList.add("w3-card-4", "w3-animate-opacity");
+    document.getElementById("myIntro").classList.add("w3-show-inline-block");
+  } else {
+    document.getElementById("myIntro").classList.remove("w3-show-inline-block");
+    document.getElementById("myTop").classList.remove("w3-card-4", "w3-animate-opacity");
+  }
+}
+
+// Accordions
+function myAccordion(id) {
+  var x = document.getElementById(id);
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+    x.previousElementSibling.className += " w3-theme";
+  } else { 
+    x.className = x.className.replace("w3-show", "");
+    x.previousElementSibling.className = 
+    x.previousElementSibling.className.replace(" w3-theme", "");
+  }
+}
+</script>
+     
+</body>
+</html> 
